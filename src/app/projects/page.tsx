@@ -8,7 +8,7 @@ export default function ProjectsPage() {
         Projects
       </h1>
 
-      <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
+      <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}

@@ -16,7 +16,7 @@ export default function BlogPage() {
         <h2 className="text-2xl font-semibold text-blue-400 mb-8 text-center">
           Medium Blogs
         </h2>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className=" grid gap-8 md:grid-cols-3">
           {mediumPosts.map((post, index) => (
             <BlogCard key={index} post={post} />
           ))}
@@ -28,7 +28,7 @@ export default function BlogPage() {
         <h2 className="text-2xl font-semibold text-blue-400 mb-8 text-center">
           LinkedIn Posts
         </h2>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3">
           {linkedinPosts.map((post, index) => (
             <BlogCard key={index} post={post} />
           ))}

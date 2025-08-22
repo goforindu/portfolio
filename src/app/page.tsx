@@ -38,7 +38,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             {/* CTA Button */}
-            <Link href="/projects">
+            <Link href="/contacts">
               <Button className=" bg-red-400 hover:bg-red-500 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-sm md:text-lg">
                 Hire Me!
                 <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
