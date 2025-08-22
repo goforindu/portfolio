@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react"; // icons
+import Image from "next/image";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -27,8 +28,10 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-2 text-green-400 font-bold text-xl"
         >
-          <img
+          <Image
             src="/images/profile_pic.jpg"
+            width={56}
+            height={56}
             alt="Profile"
             className="w-14 h-14 rounded-full border-4 border-green-500 shadow-lg"
           />

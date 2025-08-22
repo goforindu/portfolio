@@ -2,7 +2,14 @@
 
 import { ExternalLink } from "lucide-react";
 
-export default function BlogCard({ post }: { post: any }) {
+type Blog = {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+};
+
+export default function BlogCard({ post }: { post: Blog }) {
   return (
     <div className="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
       {/* Image */}

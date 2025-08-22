@@ -6,6 +6,7 @@ import ContactPage from "./contacts/page";
 import SkillPage from "./skills/page";
 import Link from "next/link";
 import BlogPage from "./blogs/page";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,8 +17,10 @@ export default function Home() {
 
         {/* Profile Picture */}
         <div className="flex justify-center z-10 mb-6">
-          <img
+          <Image
             src="/images/profile_pic.jpg"
+            width={128}
+            height={128}
             alt="Profile"
             className="w-32 h-32 md:w-44 md:h-44 rounded-full border-4 border-green-500 shadow-lg"
           />
@@ -26,7 +29,7 @@ export default function Home() {
         {/* Intro Text */}
         <div className="z-10 max-w-2xl text-white px-2">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold drop-shadow mb-4">
-            Hi, I'm <span className="text-green-400">Indu Kushwaha</span>
+            Hi, I&apos;m <span className="text-green-400">Indu Kushwaha</span>
           </h1>
 
           <p className="text-sm sm:text-base md:text-xl text-gray-300 font-medium mb-6 leading-relaxed">

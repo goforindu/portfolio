@@ -43,20 +43,22 @@ export default function AboutPage() {
         </div>
         {/* Bio */}
         <p className="text-gray-300 text-lg leading-relaxed">
-          I'm a{" "}
+          <span>I&aposm a</span>
           <span className="text-green-400 font-semibold">
             MERN & Next.js Developer
-          </span>{" "}
-          with over{" "}
+          </span>
+          <span>with over</span>
           <span className="text-green-400 font-semibold">
             7+ years of experience
-          </span>{" "}
-          building scalable and secure web applications. I specialize in
-          frontend and full-stack development using{" "}
-          <span className="text-green-400 font-semibold">TypeScript</span>,{" "}
-          <span className="text-green-400 font-semibold">Tailwind CSS</span>,{" "}
-          <span className="text-green-400 font-semibold">Node.js</span>, and{" "}
-          <span className="text-green-400 font-semibold">MongoDB</span>.
+          </span>
+          <span>
+            building scalable and secure web applications. I specialize in
+            frontend and full-stack development using
+          </span>
+          <span className="text-green-400 font-semibold">TypeScript,</span>
+          <span className="text-green-400 font-semibold">Tailwind CSS,</span>
+          <span className="text-green-400 font-semibold">Node.js</span>and
+          <span className="text-green-400 font-semibold">MongoDB.</span>
         </p>
 
         {/* Tags */}

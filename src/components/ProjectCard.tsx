@@ -1,8 +1,15 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-
-export default function ProjectCard({ project }: { project: any }) {
+type Project = {
+  title: string;
+  description: string;
+  techStack: string[];
+  project_img: string;
+  liveUrl: string;
+  githubUrl: string;
+};
+export default function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="bg-[#1e293b] rounded-xl shadow-md p-6 space-y-4 hover:shadow-xl transition-all">
       <h2 className="text-xl font-semibold text-white">{project.title}</h2>

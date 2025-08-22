@@ -2,11 +2,8 @@
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
 
 export default function ContactPage() {
-  const [status, setStatus] = useState("");
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -22,10 +19,10 @@ export default function ContactPage() {
     });
 
     if (response.ok) {
-      setStatus("Message sent successfully ✅");
+      //  setStatus("Message sent successfully ✅");
       form.reset();
     } else {
-      setStatus("Oops! Something went wrong ❌");
+      // setStatus("Oops! Something went wrong ❌");
     }
   };
   return (
