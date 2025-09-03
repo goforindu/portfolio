@@ -43,7 +43,7 @@ export default function AboutPage() {
         </div>
         {/* Bio */}
         <p className="text-gray-300 text-lg leading-relaxed">
-          <span>I&aposm a</span>
+          <span>I&apos;m a</span>
           <span className="text-green-400 font-semibold">
             MERN & Next.js Developer
           </span>
