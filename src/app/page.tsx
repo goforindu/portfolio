@@ -32,13 +32,15 @@ export default function Home() {
             Hi, I&apos;m <span className="text-green-400">Indu Kushwaha</span>
           </h1>
 
-          <p className="text-sm sm:text-base md:text-xl text-gray-300 font-medium mb-6 leading-relaxed">
-            MERN Stack Web Developer with 7+ years of experience building{" "}
-            <span className="text-green-400 font-semibold">scalable</span>,{" "}
-            <span className="text-green-400 font-semibold">secure</span>, and{" "}
-            <span className="text-green-400 font-semibold">user-friendly</span>{" "}
-            applications.
+          <p className="text-sm sm:text-base md:text-xl text-gray-300 font-medium mb-3 leading-relaxed">
+            I build <span className="text-green-400 font-semibold">fast</span>,{" "}
+            <span className="text-green-400 font-semibold">secure</span>{" "}
+            React/Next.js products that{" "}
+            <span className="text-green-400 font-semibold">convert better</span>{" "}
+            & <span className="text-green-400 font-semibold">scale safely</span>
+            .
           </p>
+
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             {/* CTA Button */}
             <Link href="/contacts">
